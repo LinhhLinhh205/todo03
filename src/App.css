@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;  
+  background-color: white;
+} 
+.container {  
+  width: 50%;  
+  margin: 0 auto;  
+  background:#fff;  
+  padding: 20px;  
+  border-radius: 5px;  
+  box-shadow: 0 0 10px rgb(75, 31, 197);  
+  margin-top: 10px;  
+  text-align: center; 
+} 
+span{
+  width: 200px;
+  padding: 10px;
+  margin-left: 20px;
+  border: 1px solid rgb(37, 34, 34);
+  border-radius: 5px;
+}
+input[type="text"]{
+  width: 200px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid white;
+  border-radius: 5px;
+  text-decoration: none;
+  outline: none;
+}
+.TodoAdd-button{
+  padding:  10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(37, 0, 80);
+  color: white;
+  cursor: pointer
+}
+.TodoItem-button{
+  margin:  10px;
+  padding:  10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(64, 33, 121);
+  color: white;
+  cursor: pointer
+}
+.todo-header{
+  font-size: 30px;
+  color: red;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
